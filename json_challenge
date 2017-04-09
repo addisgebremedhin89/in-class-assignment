@@ -1,0 +1,57 @@
+
+Challenge- Part 1
+
+Given the following array of objects
+
+
+var students = [
+  {first_name: 'Darren', last_name:'Smith'},
+  {first_name: 'Devaris', last_name:'Brown'},
+  {first_name: 'Porsha', last_name:'Robinson'},
+  {first_name: 'Arif', last_name:'Gursel'}
+]
+
+
+console.log(students[0].first_name+ " " +students[0].last_name);
+console.log(students[1].first_name+ " " +students[0].last_name);
+console.log(students[2].first_name+ " " +students[0].last_name);
+console.log(students[3].first_name+ " " +students[0].last_name);
+
+====================================
+var users = {
+Students: [
+    			{first_name:  'Darren', last_name: 'Smith'},
+   		 	{first_name: 'Devaris', last_name: 'Brown'},
+   			{first_name: 'Porsha', last_name: 'Robinson'},
+    			{first_name: 'Arif', last_name: 'Gursel'}
+		 ],
+Instructors: [
+    			{first_name: 'Marcus', last_name: 'Garvey'},
+    			{first_name: 'Malcolm', last_name: 'X'},
+ 		     ]
+}
+  
+console.log(users.Students[0].first_name+ " " +users.Students[0].last_name+ " " +(users.Students[0].first_name.length + users.Students[0].last_name.length));
+console.log(users.Students[1].first_name+ " " +users.Students[1].last_name+ " " +(users.Students[1].first_name.length + users.Students[1].last_name.length));
+console.log(users.Students[2].first_name+ " " +users.Students[2].last_name+ " " +(users.Students[2].first_name.length + users.Students[2].last_name.length));
+
+console.log(users.Instructors[0].first_name+ " " +users.Instructors[0].last_name+ " " +(users.Instructors[0].first_name.length + users.Instructors[0].last_name.length));
+console.log(users.Instructors[1].first_name+ " " +users.Instructors[1].last_name+ " " +(users.Instructors[1].first_name.length + users.Instructors[1].last_name.length));
+
+
+Create a program that prints the following format (including the number of characters in each combined name):
+
+Students
+
+1 - Darren Smith - 11
+
+2 - Devaris Brown - 12
+
+3 - Porsha Robinson - 14
+
+4 - Arif Gursel - 10
+
+Instructors
+1 - Marcus Garvey - 12
+
+2 - Malcolm X - 8
